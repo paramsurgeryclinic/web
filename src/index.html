@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Param Surgery Clinic</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Css link  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container d-flex flex-row topppest">
+      <div>
+        <i class="fa fa-map-marker">
+          <span class="">&nbsp;Lalghati, Bhopal (M.P.)</span>
+        </i>
+      </div>
+      <div class="portion">
+        <i class="fa fa-phone"> <span class="">&nbsp;+91-9890463344</span> </i>
+        <i class="fa fa-envelope"
+          >&nbsp;&nbsp;<a href="mailto:lancework.786@gmail.com" target="_blank"
+            >Send email</a
+          ></i
+        >
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navvyy">
+      <div class="container">
+        <a class="navbar-brand" href="#"> PARAM SURGERY CLINIC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navvyy_ul">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link">DOCTORS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">SERVICES</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                DEPARTMENTS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Surgery</a></li>
+                <li><a class="dropdown-item" href="#">Skin Care</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <button class="btn btn-primary w-25">Appointment</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Top box -->
+    <!-- <div class="container-fluid top_box">
+        <div class="welcome">
+            <div>
+                <p class="">Welcome to</p>
+                <p class="psc">Param Surgery Center</p>
+                <button class="btn btn-primary ">Learn More</button>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="my_slider">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active first_slide">
+            <div class="welcome">
+              <div>
+                <p class="">Welcome to</p>
+                <p class="psc">Param Surgery Center</p>
+                <button class="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+            <img
+              src="../images/olga-guryanova-tMFeatBSS4s-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item second_slide">
+            <img
+              src="../images/olga-guryanova-tMFeatBSS4s-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item third_slide">
+            <img
+              src="../images/piron-guillaume-iwzaTMpBD7Q-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+
+        <div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon dot"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+        </div>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon dot"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- infos -->
+    <div class="infos">
+      <div class="infos_1 container">
+        <div class="head_boxx" style="padding: 40px 0px">
+          <div class="boxess">
+            <div class="row">
+              <div class="col-2">
+                <i class="fa fa-user-md" aria-hidden="true"></i>
+              </div>
+
+              <div class="col-10">
+                <h5><b>Get Appointment</b></h5>
+                <p style="padding: 10px 0px">
+                  Illo nulla consectetur inventore, tempora laudantium nam
+                  molestiae placeat explicabo iure, officia cum assumenda nihil?
+                </p>
+                <button class="btn btn-primary">Book an Appointment</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="boxess">
+            <div class="row">
+              <div class="col-2">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+              </div>
+              <div class="col-10">
+                <h5><b>Operating Hours</b></h5>
+                <div class="rounded">
+                  <div class="row">
+                    <div class="col-6">
+                      <span>Monday-Saturday</span>
+                    </div>
+                    <div class="col-6"><span> 05:00 PM to 08:00 PM </span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="boxess">
+            <div class="row">
+              <div class="col-2">
+                <i class="fa fa-ambulance" aria-hidden="true"></i>
+              </div>
+              <div class="col-10">
+                <h5><b>Emergency</b></h5>
+                <div class="">
+                  <p>Call: <span>+91-9890463344</span></p>
+                  <p>
+                    In event of an Emergency please call us as soon as possible.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our departments -->
+    <div>
+      <div class="container my-5 text-center">
+        <h5 class="text-underline">OUR DEPARTMENTS</h5>
+        <h3 class="my-2">Practice Areas</h3>
+      </div>
+
+      <div class="container my-4">
+        <div class="row one_row my-4">
+          <div class="col effectss">
+            <div class="card p-2" style="width: 21rem">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-center">Hernia</h4>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Sub heading</h6> -->
+                <p class="card-text">
+                  A hernia occurs when an internal part of the body, such as the
+                  intestine, pushes through a weakness or tear in the muscle or
+                  tissue that holds it in placeHernias can be caused by a
+                  variety of factors...
+                </p>
+                <a href="./components/hernia.html" class="card-link"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col effectss">
+            <div class="card p-2" style="width: 21rem">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-center">Piles</h4>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Sub heading</h6> -->
+                <p class="card-text">
+                  Piles, also known as piles, are swollen and inflamed veins in
+                  the rectum and anus. They can be internal, located inside the
+                  rectum, or external, located outside the anus...
+                </p>
+                <a href="./components/piles.html" class="card-link"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col effectss">
+            <div class="card p-2" style="width: 21rem">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-center">
+                  Hydrocele
+                </h4>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Sub heading</h6> -->
+                <p class="card-text">
+                  A hydrocele is a collection of fluid in a thin sac within the
+                  scrotum, the sac that surrounds the testicles. This fluid
+                  buildup can cause the scrotum to swell.Hydroceles can develop
+                  in both men and infants...
+                </p>
+                <a href="./components/hydrocele.html" class="card-link"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- First row ends -->
+        <!-- Second row starts -->
+
+        <div class="row one_row">
+          <div class="col effectss">
+            <div class="card p-2" style="width: 21rem">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-center">
+                  Vericocele
+                </h4>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Sub heading</h6> -->
+                <p class="card-text">
+                  Piles, also known as piles, are swollen and inflamed veins in
+                  the rectum and anus. They can be internal, located inside the
+                  rectum, or external, located outside the anus...
+                </p>
+                <a href="./components/varicocele.html" class="card-link"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col effectss">
+            <div class="card p-2" style="width: 21rem">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-center">
+                  Appendix
+                </h4>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Sub heading</h6> -->
+                <p class="card-text">
+                  Piles, also known as piles, are swollen and inflamed veins in
+                  the rectum and anus. They can be internal, located inside the
+                  rectum, or external, located outside the anus...
+                </p>
+                <a href="./components/appendix.html" class="card-link"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col effectss">
+            <div class="card p-2" style="width: 21rem">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-center">
+                  Laproscopy
+                </h4>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Sub heading</h6> -->
+                <p class="card-text">
+                  A hydrocele is a collection of fluid in a thin sac within the
+                  scrotum, the sac that surrounds the testicles. This fluid
+                  buildup can cause the scrotum to swell. Hydroceles can develop
+                  in both men...
+                </p>
+                <a href="./components/laproscopy.html" class="card-link"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second row ends -->
+        <!-- third row starts -->
+        <div class="row one_row my-4">
+          <div class="col effectss">
+            <div class="card p-2" style="width: 21rem">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-center">Fissure</h4>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Sub heading</h6> -->
+                <p class="card-text">
+                  Piles, also known as piles, are swollen and inflamed veins in
+                  the rectum and anus. They can be internal, located inside the
+                  rectum, or external, located outside the anus...
+                </p>
+                <a href="./components/fissure.html" class="card-link"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col effectss">
+            <div class="card p-2" style="width: 21rem">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-center">Fistula</h4>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Sub heading</h6> -->
+                <p class="card-text">
+                  Piles, also known as piles, are swollen and inflamed veins in
+                  the rectum and anus. They can be internal, located inside the
+                  rectum, or external, located outside the anus...
+                </p>
+                <a href="./components/fistula.html" class="card-link"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col effectss">
+            <div class="card p-2" style="width: 21rem">
+              <div class="card-body">
+                <h4 class="card-title font-weight-bold text-center">
+                  Rectal Prolapse
+                </h4>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Sub heading</h6> -->
+                <p class="card-text">
+                  A hydrocele is a collection of fluid in a thin sac within the
+                  scrotum, the sac that surrounds the testicles. This fluid
+                  buildup can cause the scrotum to swell. Hydroceles can develop
+                  in both men...
+                </p>
+                <a href="./components/Rectal_prolapse.html" class="card-link"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book Appointment -->
+    <div class="appointment container m-5">
+      <div class="my-5 text-center">
+        <h5 class="text-underline">APPOINTMENT</h5>
+        <h3 class="my-2">Book your Slot</h3>
+      </div>
+      <div class="">
+        <form>
+          <div class="row">
+            <div class="form-group col">
+              <label for="">Name</label>
+              <input
+                type="text"
+                class="form-control inputField"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter Name"
+              />
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+
+            <div class="form-group col">
+              <label for="">Contact No.</label>
+              <input
+                type="text"
+                class="form-control inputField"
+                id="exampleInputEmail1"
+                aria-describedby="Phone info"
+                placeholder="Contact No."
+              />
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+          </div>
+        </form>
+
+        <form>
+          <div class="row">
+            <div class="form-group col">
+              <label for="exampleFormControlSelect1">Date</label>
+              <input
+                type="date"
+                class="form-control inputField"
+                id="exampleInputEmail1"
+                aria-describedby="Date"
+                placeholder="Select Date"
+              />
+            </div>
+
+            <div class="form-group col">
+              <label for="exampleFormControlSelect1">Time</label>
+              <div class="inputField">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Select Slot</option>
+                  <option>(1) 05:00 PM-06:00 PM</option>
+                  <option>(2) 07:00 PM-08:00 PM</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="my-3 buttonbox">
+            <button type="submit" class="btn btn-primary">
+              Book Appointment
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+
+    <!-- Footer -->
+    <footer>
+      <section class="footer row mt-5">
+        <div class="col brand">
+          <div class="h5">Param Surgery Clinic</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Recusandae, molestiae.
+          </p>
+          <div class="social">
+            <a href="#t" class="social-icon">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="#fb" class="social-icon">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col about">
+          <div class="h5">About Us</div>
+          <a href="#">Address</a>
+          <a href="#">Community update</a>
+          <a href="#">Press Kit</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col subjects">
+          <div class="h5">Subjects</div>
+          <a href="#">English</a>
+          <a href="#">Math</a>
+          <a href="#">Science</a>
+          <a href="#">Social Sceince</a>
+        </div>
+        <!-- <div class="col product">
+          <div class="h5">Product</div>
+          <a href="#">Pricing</a>
+          <a href="#">Enterprice</a>
+          <a href="#">Integrate</a>
+          <a href="#">What’s New</a>
+        </div> -->
+        <div class="col subscribe">
+          <div class="h5">Our Location</div>
+          <div class="newsletter">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  class="gmap_iframe"
+                  width="100%"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=300&amp;height=170&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ></iframe
+                ><a href="https://www.gachacute.com/">Gacha Cute</a>
+              </div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  width: 100%;
+                  height: 170px;
+                }
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  width: 100%;
+                  height: 170px;
+                }
+                .gmap_iframe {
+                  height: 170px !important;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="copyright">
+        <div class="row">
+          <div class="col"><span>©</span> Developed by Arthraj Rathore</div>
+
+          <div class="col abc">
+            <a href="https://github.com/Arthraj"
+              ><i class="fa fa-github-square" aria-hidden="true"></i
+            ></a>
+            |
+            <a href="mailto:arthraj.01@gmail.com"
+              ><i class="fa fa-envelope" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+
+    <!-- Bootstrap popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Body Ends -->
+  </body>
+</html>

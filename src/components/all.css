@@ -1,0 +1,81 @@
+body,
+html,
+* {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+body,
+*,
+p {
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 0.2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+:root {
+  /* Blue:#0037d2
+Creamy: #f5f3ec */
+  --text_blue: rgb(45, 128, 200);
+  /* --blue: #0037d2; */
+  --blue: #0c6dfd;
+  --creamy: #f5f3ec;
+  --dark: rgba(35, 33, 33, 0.949);
+}
+
+.container {
+  width: 1100px;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.topppest {
+  color: #0037d2;
+  background-color: rgba(255, 255, 255, 0.934);
+  height: 30px;
+  padding: 3px 0px;
+  border-bottom: 1px solid #000;
+}
+
+.portion {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0px;
+}
+
+.back_button{
+  font-size: large;
+}
+
+.back_button i{
+  width: 25px;
+  font-size: medium;
+}
+
+.head{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.question{
+  margin: 16px 0px;
+}
+
+.que{
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  font-weight: bold;
+}
+
+.ans{
+  margin: 1px 0px;
+  margin-left: 20px;
+  
+}
