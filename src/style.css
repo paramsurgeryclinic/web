@@ -30,7 +30,7 @@ p{
 }
 
 .container {
-  width: 1100px;
+  max-width: 100%;
   padding: 0;
 }
 
@@ -351,5 +351,12 @@ footer:hover::before {
 
   .footer .h5 {
     font-size: 16px;
+  }
+
+  .container{
+    width: 100%;
+  }
+  .carousel{
+    width: 360px;
   }
 }
